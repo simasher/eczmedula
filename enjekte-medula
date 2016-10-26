@@ -1,0 +1,21 @@
+
+var esdegerList=[];
+function findEsdegerList(o){
+    for(i=0;i<esdegerList.length;i++){
+        if(esdegerList(i).bc==o.bc){
+            return esdegerList(i).id;
+            break;
+        }
+    }
+}
+
+$('table[id="f:tableExHastayaVerilenIlacList"]>tbody>.rowGreen').each(function(){
+   var curID=$("td:first-child div input ",this).attr("id");
+   var curBarkod=$("td:nth-child(2) div span",this).text();
+   var curText=$("td:nth-child(3) span",this).text();
+
+   //esdegerList.push({bc:curBarkod,id:curID,tx:curText});
+   //findEsdegerList({bc:868645654654});
+
+
+})
