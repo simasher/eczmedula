@@ -3,6 +3,7 @@ var esdegerList=[];
 function findEsdegerList(o){
     for(i=0;i<esdegerList.length;i++){
         if(esdegerList(i).bc==o.bc){
+        alert(o.bc);
             return esdegerList(i).id;
             break;
         }
