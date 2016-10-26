@@ -1,3 +1,4 @@
+function a(){alert('ok');}
 
 var esdegerList=[];
 function findEsdegerList(o){
